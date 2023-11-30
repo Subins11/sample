@@ -43,7 +43,7 @@ export class AppComponent implements OnInit {
     this.editing = true;
   }
 
-  updateTask(event: SubmitEvent): void {
+  updateTask(event: SubmitEvent) {
     event.preventDefault();
     this.taskService.updateTask(this.selectedTask).subscribe(task => {
       this.selectedTask = new Task();

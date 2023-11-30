@@ -4,7 +4,7 @@ import { Task } from './task';
 import { TASKS } from './mock-tasks';
 
 @Injectable({
-  providedIn: 'root',
+  providedIn: 'root'
 })
 export class TaskService {
 
